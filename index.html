@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test bdg</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Pop-up JS</title>
 </head>
 <body>
-    
+
+<button id="open-popup">Ouvrir le pop-up</button>
+
+<div id="popup-container" class="hidden">
+  <div class="popup-content">
+    <span id="close-popup" class="close-btn">&times;</span>
+    <p>Ceci est un pop-up !</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
